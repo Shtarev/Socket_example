@@ -41,7 +41,7 @@ else {
 <div id="response"></div>  
 <script>
 setInterval(()=>{
-fetch('http://test/response.json')  
+fetch('http://test.loc/response.json')  
     .then((response) => {  
         return response.json();  
     })  
